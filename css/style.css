@@ -20,11 +20,11 @@ Contact Info: pinte_catalin@yahoo.com
 
 
 /*  
-     background 1  :   #a3a8ad url(../img/background-1.png) 0 0 repeat-x; 
-     background 2  :   #a3a8ad url(../img/background-2.png) 0 0 repeat-x; 
-     background 3  :   #333 url(../img/background-3.png) 0 0 repeat-x;  
-     background 4  :   #2f597f url(../img/background-4.png) 0 0 repeat-x;
-     background 5  :   #173d5f url(../img/background-5.png) 0 0 repeat-x;
+background 1  :   #a3a8ad url(../img/background-1.png) 0 0 repeat-x; 
+background 2  :   #a3a8ad url(../img/background-2.png) 0 0 repeat-x; 
+background 3  :   #333 url(../img/background-3.png) 0 0 repeat-x;  
+background 4  :   #2f597f url(../img/background-4.png) 0 0 repeat-x;
+background 5  :   #173d5f url(../img/background-5.png) 0 0 repeat-x;
 */
 
 body {
@@ -105,7 +105,7 @@ h6 {
 .cufon-active h1 {
     padding: 0;
     margin: 0;
-/*    margin-left: 219px;*/
+    /*    margin-left: 219px;*/
     font-size: 60px;
     margin-top: -4px;
 }
@@ -175,7 +175,9 @@ a {
 }
 
 #top-content .personal-data {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 #top-content .top-description {
@@ -200,12 +202,12 @@ a {
     overflow: hidden;
     padding: 4px 0 0 35px;
     margin: 0;
-    
+
 }
 
 #top-content .birthday {
     background: url(../img/calendrier.png) 0 -62px no-repeat;
-display: block;
+    display: block;
     background-size: 20px 20px;
     background-position: 0px 5px;
     overflow: hidden;
@@ -215,7 +217,7 @@ display: block;
 
 #top-content .Nationality {
     background: url(../img/id_verified.png) 0 -62px no-repeat;
-display: block;
+    display: block;
     background-size: 20px 20px;
     background-position: 0px 5px;
     overflow: hidden;
@@ -225,7 +227,7 @@ display: block;
 
 #top-content .army {
     background: url(../img/Army-officer-icon.png) 0 -62px no-repeat;
-display: block;
+    display: block;
     background-size: 20px 20px;
     background-position: 0px 5px;
     overflow: hidden;
@@ -610,6 +612,6 @@ font.success {
 }
 /*
 #social #instagram {
-    background: url("../img/instagram.jpg") -494px 0 no-repeat;
+background: url("../img/instagram.jpg") -494px 0 no-repeat;
 }
 */
